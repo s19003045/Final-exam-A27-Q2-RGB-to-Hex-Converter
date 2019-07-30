@@ -1,0 +1,33 @@
+/* ========RGB input========== */
+.input-group-text {
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.basic-red-text {
+  background-color: rgb(0, 0, 0);
+}
+.basic-green-text {
+  background-color: rgb(0, 0, 0);
+}
+.basic-blue-text {
+  background-color: rgb(0, 0, 0);
+}
+
+/* ========RGB slider========== */
+.advance-red-text {
+  background-color: rgb(0, 0, 0);
+}
+.advance-green-text {
+  background-color: rgb(0, 0, 0);
+}
+.advance-blue-text {
+  background-color: rgb(0, 0, 0);
+}
+
+/* =========basic-hex========= */
+.basic-hex-output {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+}
