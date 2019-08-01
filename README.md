@@ -11,6 +11,7 @@ RGB 與 HEX 色碼的轉換器
 
 # 程式碼說明
 
-![關聯圖](https://github.com/s19003045/Final-exam-A27-Q2-RGB-to-Hex-Converter/blob/master/image/RGBtoHEX_converter.png)
+![畫面](https://github.com/s19003045/Final-exam-A27-Q2-RGB-to-Hex-Converter/blob/master/image/RGB-HEX-convertor-v2.png)
+![關聯圖](https://github.com/s19003045/Final-exam-A27-Q2-RGB-to-Hex-Converter/blob/master/image/RGBtoHEX_converter-principle.png)
 
 # 參考資料
