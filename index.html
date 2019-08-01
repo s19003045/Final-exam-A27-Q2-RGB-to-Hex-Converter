@@ -22,13 +22,14 @@
       >
     </nav>
 
-    <div class="container">
-      <h2 class="my-3">RGB to Hex Converter</h2>
+    <div class="container text-center">
+      <h2 class="my-3">RGB - Hex Converter</h2>
 
       <!-- <h3 class="my-3">Basic</h3> -->
 
-      <div class="row mb-2">
-        <div class="col-12 col-md-8 border p-3" id="basic-rgb-input">
+      <div class="row mb-2 justify-content-center">
+        <!-- RGB input -->
+        <div class="col-12 col-md-4 border p-3" id="basic-rgb-input">
           <h3>RGB input</h3>
           <h6 class="my-3">
             RGB輸入範圍：0 ~ 255。<br />
@@ -84,6 +85,7 @@
             Convert
           </button>
         </div>
+        <!-- HEX input and output -->
         <div class="col-12 col-md-4 border p-3" id="basic-hex">
           <h4>HEX</h4>
           <h6 class="my-3">
@@ -100,12 +102,8 @@
 
           <div class="basic-hex-output m-2"></div>
         </div>
-      </div>
-
-      <!-- Advanced -->
-
-      <div class="row mb-5" id="rgb-slider">
-        <div class="col col-md-8 border p-3">
+        <!-- RGB slider -->
+        <div class="col col-md-4 border p-3" id="rgb-slider">
           <h3 class="mt-0">RGB slider</h3>
           <!-- red color -->
           <div class="input-group mb-3">
@@ -166,6 +164,71 @@
           </div>
         </div>
       </div>
+
+      <!-- Advanced -->
+
+      <!-- <div class="row mb-5 justify-content-center" id="rgb-slider">
+        <div class="col col-md-10 border p-3">
+          <h3 class="mt-0">RGB slider</h3>
+   
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">R:</span>
+            </div>
+            <input
+              type="range"
+              class="form-control advance-red-value"
+              min="0"
+              max="255"
+              id="r"
+              step="1"
+              value="0"
+              aria-label="Red-index"
+            />
+            <div class="input-group-append advance-red-output">
+              <span class="input-group-text advance-red-text">0</span>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">G:</span>
+            </div>
+            <input
+              type="range"
+              class="form-control advance-green-value"
+              min="0"
+              max="255"
+              id="r"
+              step="1"
+              value="0"
+              aria-label="Green-index"
+            />
+            <div class="input-group-append advance-green-output">
+              <span class="input-group-text advance-green-text">0</span>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">B:</span>
+            </div>
+            <input
+              type="range"
+              class="form-control advance-blue-value"
+              min="0"
+              max="255"
+              id="r"
+              step="1"
+              value="0"
+              aria-label="Blue-index"
+            />
+            <div class="input-group-append advance-blue-output">
+              <span class="input-group-text advance-blue-text">0</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script
